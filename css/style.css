@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: grey;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container label {
+  font-weight: bold;
+}
+.form-container input {
+  margin-bottom: .5em;
+}
+
+.error {
+  color: red;
+}
